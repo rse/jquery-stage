@@ -1,0 +1,47 @@
+
+.info {
+    background-color: #333333;
+    padding: 20px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+.info .label {
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: right;
+    color: #cccccc;
+}
+.info .value {
+    font-family: monospace;
+    font-size: 12pt;
+    color: #ffffff;
+}
+
+.device {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.stage-size-phone .device {
+    background-color: blue;
+}
+.stage-size-tablet .device {
+    background-color: green;
+}
+.stage-size-desktop .device {
+    background-color: red;
+}
+.stage-orientation-portrait .device {
+    width:  90px;
+    height: 160px;
+}
+.stage-orientation-square .device {
+    width:  120px;
+    height: 120px;
+}
+.stage-orientation-landscape .device {
+    width:  160px;
+    height: 90px;
+}
+
