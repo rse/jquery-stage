@@ -1,8 +1,8 @@
 
-jQuery Markup
-=============
+jQuery Stage
+============
 
-(jQuery Stage Detection)
+(jQuery Stage Information)
 
 Abstract
 --------

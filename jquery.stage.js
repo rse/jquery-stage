@@ -1,5 +1,5 @@
 /*!
-**  jQuery Stage -- jQuery Stage Detection
+**  jQuery Stage -- jQuery Stage Information
 **  Copyright (c) 2013 Ralf S. Engelschall <rse@engelschall.com>
 **
 **  Permission is hereby granted, free of charge, to any person obtaining
