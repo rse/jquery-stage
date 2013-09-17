@@ -141,6 +141,15 @@ its Node.js Package Manager ("npm") globally installed.
     $ npm install
     $ grunt
 
+See Also
+--------
+
+- ScreenSiz.es
+  http://screensiz.es/
+
+- Pixels Per Inch Awareness and CSS Px
+  http://static.zealous-studios.co.uk/projects/web\_tests/PPI%20tests.html
+
 License
 -------
 
