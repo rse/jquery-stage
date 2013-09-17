@@ -32,8 +32,8 @@
         "h":           0,   /* stage height          (px)     */
         "dp":          0,   /* stage diagonal length (px)     */
         "dppx":        1.0, /* stage dots per pixel  (factor) */
-        "ppi":         0,   /* stage pixel per inch  (factor) */
-        "di":          0,   /* stage diagonal length (inch)   */
+        "ppi":         0.0, /* stage pixel per inch  (factor) */
+        "di":          0.0, /* stage diagonal length (inch)   */
         "size":        "",  /* stage size            (string) */
         "orientation": ""   /* stage orientation     (string) */
     };
@@ -147,11 +147,11 @@
         /* global window: true */
         debug(1, "(re)calculating all stage parameters");
         var S         = $.extend({}, stage_default);
-        S.w           = $(window).width();
-        S.h           = $(window).height();
+        S.w           = parseInt($(window).width());
+        S.h           = parseInt($(window).height());
         S.dp          = Math.round(10 * Math.sqrt(S.w * S.w + S.h * S.h)) / 10;
-        S.dppx        = (typeof S.dppx !== "undefined" ? window.devicePixelRatio : 1.0);
-        S.ppi         = calculate_one("ppi", settings.ppi, S);
+        S.dppx        = (typeof S.dppx !== "undefined" ? parseFloat(window.devicePixelRatio) : 1.0);
+        S.ppi         = parseFloat(calculate_one("ppi", settings.ppi, S));
         S.di          = Math.round(10 * (S.dp / S.ppi)) / 10;
         S.size        = calculate_one("size", settings.size, S);
         S.orientation = calculate_one("orientation", settings.orientation, S);
