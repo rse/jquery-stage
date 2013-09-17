@@ -1,6 +1,6 @@
 {
     "name":        "jquery-stage",
-    "version":     "1.0.0",
+    "version":     "1.0.1",
     "description": "jQuery Stage is a jQuery plugin for detecting information about the stage, the browser's viewport.",
     "main":        "jquery.stage.js",
     "scripts": {
