@@ -36,8 +36,8 @@ But there are multiple problems:
   But the diagonal more conveniently discriminates the size of a device.
 
 - Media Queries can not take a treshold for orientation into account,
-  i.e., if width and height differ by less than N% the stage is nearly
-  square and not portrait or landscape.
+  i.e., if width and height differ by less than 5% the stage is nearly
+  square and neither portrait nor landscape.
 
 This is where jQuery Stage and its guessing algorithm comes into the play.
 
@@ -72,9 +72,6 @@ On every change of any of those parameters (usually either by resizing
 the viewport on a desktop device or changing the device orientation of
 a portable device), an event named "stage" is trigged on the global
 "window" object providing the new stage information and the old stage
-information. In addition, the CSS classes "stage-size-<name>" and
-"stage-orientation-<name>" are provided where the "<name>" parts
-correspond to the "size" and "orientation" fields of the current stage
 information. An application can use this information for responsive
 design aspects.
 
@@ -159,7 +156,8 @@ Event Handling
 --------------
 
 Reacting on the `stage` event is up to the application.
-Usually one wants to react similar to CSS media queries:
+Usually one wants to react similar to CSS media queries.
+A simple example follows:
 
     /*  foo.css  */
     .phone.landscape   { ... }
