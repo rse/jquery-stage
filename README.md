@@ -82,20 +82,53 @@ API
 ---
 
 The Application Programming Interface (API) of jQuery Stage is
-(in concise TypeScript definition syntax):
+(in TypeScript definition syntax):
 
-    /*  global version number  */
-    $.stage.version: Float
+    /*  the jQuery Stage Callback function type  */
+    interface JQueryStageCB {
+        (ev: JQueryEventObject, stage: JQueryStageInfo, stageOld: JQueryStageInfo): any;
+    }
 
-    /*  global debug level  */
-    $.stage.debug: Number
+    /*  the jQuery Stage Information structure type  */
+    interface JQueryStageInfo {
+        w:           Number;
+        h:           Number;
+        dp:          Number;
+        dppx:        Number;
+        ppi:         Number;
+        di:          Number;
+        size:        String;
+        orientation: String;
+    }
 
-    /*  fetch the current stage information  */
-    $.stage(): Stage
+    /*  the jQuery Stage Settings structure type  */
+    interface JQueryStageSettings {
+        ppi:         { [key: String]: String; };
+        size:        { [key: String]: String; };
+        orientation: { [key: String]: String; };
+    }
 
-    /*  get triggered on any stage information modification  */
-    $([...]).stage(callback: (ev: Event, stage: Stage, stageOld: Stage) => Void): jQuery
-    $([...]).bind("stage", callback: (ev: Event, stage: Stage, stageOld: Stage) => Void): jQuery
+    /*  extend the static jQuery API extension (provided by jquery.d.ts)  */
+    interface JQueryStatic {
+        stage: {
+            /*  fetch current stage information  */
+            (): JQueryStageInfo;
+
+            /*  global version number  */
+            version: String;
+
+            /*  global debug level  */
+            debug: Number;
+
+            /*  configure the stage settings  */
+            settings(settings: JQueryStageSettings): void;
+        };
+    }
+
+    /*  extend the dynamic jQuery result object API extension (provided by jquery.d.ts)  */
+    interface JQuery {
+        stage(cb: JQueryStageCB): JQuery;
+    }
 
 Settings
 --------
