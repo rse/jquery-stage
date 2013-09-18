@@ -144,16 +144,16 @@ its Node.js Package Manager ("npm") globally installed.
 See Also
 --------
 
-- "Display resolution": Wikipedia article on display resolution
+- "Display resolution": Wikipedia article on display resolution<br/>
   http://en.wikipedia.org/wiki/Display_resolution
 
-- "Display size": Wikipedia article on display size
+- "Display size": Wikipedia article on display size<br/>
   http://en.wikipedia.org/wiki/Display_size
 
-- "ScreenSiz.es": directory of device properties
+- "ScreenSiz.es": directory of device properties<br/>
   http://screensiz.es/
 
-- "Pixels Per Inch Awareness and CSS Px": article on 
+- "Pixels Per Inch Awareness and CSS Px": article PPI and CSS<br/>
   http://static.zealous-studios.co.uk/projects/web_tests/PPI%20tests.html
 
 License
