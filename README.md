@@ -156,6 +156,9 @@ See Also
 - "Pixels Per Inch Awareness and CSS Px": article PPI and CSS<br/>
   http://static.zealous-studios.co.uk/projects/web_tests/PPI%20tests.html
 
+- "Window Resizer": Google Chrome extension for resizing viewport to various sizes<br/>
+  https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en
+
 License
 -------
 
