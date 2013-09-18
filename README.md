@@ -91,21 +91,21 @@ The Application Programming Interface (API) of jQuery Stage is
 
     /*  the jQuery Stage Information structure type  */
     interface JQueryStageInfo {
-        w:           Number;
-        h:           Number;
-        dp:          Number;
-        dppx:        Number;
-        ppi:         Number;
-        di:          Number;
-        size:        String;
-        orientation: String;
+        w:           number;
+        h:           number;
+        dp:          number;
+        dppx:        number;
+        ppi:         number;
+        di:          number;
+        size:        string;
+        orientation: string;
     }
 
     /*  the jQuery Stage Settings structure type  */
     interface JQueryStageSettings {
-        ppi:         { [key: String]: String; };
-        size:        { [key: String]: String; };
-        orientation: { [key: String]: String; };
+        ppi:         { [key: string]: string; };
+        size:        { [key: string]: string; };
+        orientation: { [key: string]: string; };
     }
 
     /*  extend the static jQuery API extension (provided by jquery.d.ts)  */
@@ -115,10 +115,10 @@ The Application Programming Interface (API) of jQuery Stage is
             (): JQueryStageInfo;
 
             /*  global version number  */
-            version: String;
+            version: string;
 
             /*  global debug level  */
-            debug: Number;
+            debug: number;
 
             /*  configure the stage settings  */
             settings(settings: JQueryStageSettings): void;
