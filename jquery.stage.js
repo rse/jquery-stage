@@ -112,8 +112,8 @@
             "160": "dp < 1024 && dppx >= 2.0"      /*  small screens with high device pixel ratio  */
         },
         size: {
-            "phone":   " 0.0 <= di && di <  6.5",  /*  phone   devices usually have a diagonal of up to  6.5in       */
-            "tablet":  " 6.5 <= di && di < 12.0",  /*  tablet  devices usually have a diagonal of up to 12.0in       */
+            "phone":   "0.0 <= di && di <  6.5",   /*  phone   devices usually have a diagonal of up to  6.5in       */
+            "tablet":  "6.5 <= di && di < 12.0",   /*  tablet  devices usually have a diagonal of up to 12.0in       */
             "desktop": "*"                         /*  desktop devices usually have a diagonal of 12.0in and higher  */
         },
         orientation: {
