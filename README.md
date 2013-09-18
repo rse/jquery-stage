@@ -111,8 +111,8 @@ default is the following:
             "160": "dp < 1024 && dppx >= 2.0"
         },
         size: {
-            "phone":   " 0.0 <= di && di <  6.5",
-            "tablet":  " 6.5 <= di && di < 12.0",
+            "phone":   "0.0 <= di && di <  6.5",
+            "tablet":  "6.5 <= di && di < 12.0",
             "desktop": "*"
         },
         orientation: {
@@ -144,11 +144,17 @@ its Node.js Package Manager ("npm") globally installed.
 See Also
 --------
 
-- ScreenSiz.es
+- "Display resolution": Wikipedia article on display resolution
+  http://en.wikipedia.org/wiki/Display_resolution
+
+- "Display size": Wikipedia article on display size
+  http://en.wikipedia.org/wiki/Display_size
+
+- "ScreenSiz.es": directory of device properties
   http://screensiz.es/
 
-- Pixels Per Inch Awareness and CSS Px
-  http://static.zealous-studios.co.uk/projects/web\_tests/PPI%20tests.html
+- "Pixels Per Inch Awareness and CSS Px": article on 
+  http://static.zealous-studios.co.uk/projects/web_tests/PPI%20tests.html
 
 License
 -------
