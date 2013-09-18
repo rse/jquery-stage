@@ -63,7 +63,7 @@
     });
 
     /*  plugin version number  */
-    $.stage.version = "1.0.1";
+    $.stage.version = "1.1.0";
 
     /*  debug level  */
     $.stage.debug = 0;
