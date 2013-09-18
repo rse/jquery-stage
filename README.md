@@ -155,6 +155,29 @@ default is the following:
         }
     });
 
+Event Handling
+--------------
+
+Reacting on the `stage` event is up to the application.
+Usually one wants to react similar to CSS media queries:
+
+    /*  foo.css  */
+    .phone.landscape   { ... }
+    .phone.portrait    { ... }
+    .tablet.landscape  { ... }
+    .tablet.portrait   { ... }
+    .desktop.landscape { ... }
+    .desktop.portrait  { ... }
+
+    /*  foo.js  */
+    $(window).bind("stage", function (stage, stageOld) {
+        $("body")
+            .removeClass(stageOld.size)
+            .addClass   (stage.size)
+            .removeClass(stageOld.orientation)
+            .addClass   (stage.orientation);
+    });
+
 Building jQuery Stage
 ---------------------
 

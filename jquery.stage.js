@@ -55,6 +55,8 @@
         /*  API: subscribe to a stage event  */
         stage: function (callback) {
             return this.each(function () {
+                if ($(this).get(0) !== window)
+                    throw new Error("jquery: stage: you can only bind 'stage' events onto the 'window' object");
                 $(this).bind("stage", callback);
             });
         }
@@ -179,13 +181,6 @@
         if (difference || forced) {
             /*  optionally notify all subscribers  */
             $(window).trigger("stage", [ stage, stageOld ]);
-
-            /*  update CSS classes on <body>  */
-            $("body")
-                .removeClass("stage-size-" + stageOld.size)
-                .addClass   ("stage-size-" + stage.size)
-                .removeClass("stage-orientation-" + stageOld.orientation)
-                .addClass   ("stage-orientation-" + stage.orientation);
         }
     };
 
