@@ -207,6 +207,9 @@ See Also
 - "ScreenSiz.es": directory of device properties<br/>
   http://screensiz.es/
 
+- "dpiLove": DPI/PPI detection
+  http://dpi.lv/
+
 - "Pixels Per Inch Awareness and CSS Px": article PPI and CSS<br/>
   http://static.zealous-studios.co.uk/projects/web_tests/PPI%20tests.html
 
