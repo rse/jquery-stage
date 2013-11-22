@@ -1,0 +1,23 @@
+{
+    "name": "jquery-stage",
+    "version": "1.1.1",
+    "description": "jQuery Stage is a jQuery plugin for detecting information about the stage, the browser's viewport.",
+    "main": "jquery.stage.js",
+    "homepage": "https://github.com/rse/jquery-stage",
+    "license": "MIT",
+    "authors": [
+        "Ralf S. Engelschall <rse@engelschall.com>"
+    ],
+    "keywords": [
+        "viewport", "stage", "width", "height", "dpi", "ppi",
+        "size", "orientation", "diagonal", "portrait", "landscape"
+    ],
+    "dependencies": {
+        "jquery": "latest"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ]
+}
