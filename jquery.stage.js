@@ -22,7 +22,9 @@
 **  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-/* global jQuery: true */
+/* global jQuery: false */
+/* global window: false */
+/* global document: false */
 (function ($) {
     /* jshint -W014 */
 
@@ -146,7 +148,6 @@
 
     /*  calculate all result values  */
     var calculate_all = function () {
-        /* global window: true */
         debug(1, "(re)calculating all stage parameters");
         var S         = $.extend({}, stage_default);
         S.w           = parseInt($(window).width());
