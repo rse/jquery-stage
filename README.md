@@ -10,6 +10,12 @@ Abstract
 jQuery Stage is a [jQuery](http://jquery.com/) plugin for detecting
 information about the "stage", the browser's viewport.
 
+Demo
+----
+
+See the included [sample/index.html](http://rawgit.com/rse/jquery-stage/master/sample/index.html)
+for a small demonstration of jQuery Stage.
+
 Motivation
 ----------
 
