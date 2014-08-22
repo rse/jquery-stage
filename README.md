@@ -216,8 +216,11 @@ See Also
 - "dpiLove": DPI/PPI detection
   http://dpi.lv/
 
-- "Pixels Per Inch Awareness and CSS Px": article PPI and CSS<br/>
+- "Pixels Per Inch Awareness and CSS Px": article on PPI and CSS<br/>
   http://static.zealous-studios.co.uk/projects/web_tests/PPI%20tests.html
+
+- "Designer's Guide to DPI": article on DPI<br/>
+  http://sebastien-gabriel.com/designers-guide-to-dpi/home
 
 - "Window Resizer": Google Chrome extension for resizing viewport to various sizes<br/>
   https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en
