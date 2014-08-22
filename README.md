@@ -213,7 +213,7 @@ See Also
 - "ScreenSiz.es": directory of device properties<br/>
   http://screensiz.es/
 
-- "dpiLove": DPI/PPI detection
+- "dpiLove": DPI/PPI detection<br/>
   http://dpi.lv/
 
 - "Pixels Per Inch Awareness and CSS Px": article on PPI and CSS<br/>
