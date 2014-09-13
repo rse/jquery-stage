@@ -225,6 +225,9 @@ See Also
 - "Window Resizer": Google Chrome extension for resizing viewport to various sizes<br/>
   https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en
 
+- "ScreenCalc": calculate screen properties<br/>
+  https://github.com/theodorejb/ScreenCalc
+
 License
 -------
 
