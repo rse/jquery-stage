@@ -220,13 +220,16 @@ See Also
   http://static.zealous-studios.co.uk/projects/web_tests/PPI%20tests.html
 
 - "Designer's Guide to DPI": article on DPI<br/>
-  http://sebastien-gabriel.com/designers-guide-to-dpi/home
+  http://sebastien-gabriel.com/designers-guide-to-dpi/
 
 - "Window Resizer": Google Chrome extension for resizing viewport to various sizes<br/>
   https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en
 
 - "ScreenCalc": calculate screen properties<br/>
   https://github.com/theodorejb/ScreenCalc
+
+- "Screen Orientation API": the effort of the W3C<br/>
+  http://www.w3.org/TR/screen-orientation/
 
 License
 -------
