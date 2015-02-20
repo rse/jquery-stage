@@ -182,6 +182,27 @@ A simple example follows:
             .addClass   (stage.orientation);
     });
 
+Getting jQuery-Stage
+--------------------
+
+You can conveniently get jQuery-Stage in various ways:
+
+- Git: directly clone the official jQuery-Stage repository
+
+  `$ git clone https://github.com/rse/jquery-stage.git`
+
+- NPM: install as client component via the NPM package manager:
+
+  `$ npm install jquery-stage`
+
+- Bower: install as client component via the Bower component manager:
+
+  `$ bower install jquery-stage`
+
+- cURL: downloading only the main file from the repository
+
+  `$ curl -O https://raw.github.com/rse/jquery-stage/master/jquery.stage.js`
+
 Building jQuery Stage
 ---------------------
 
